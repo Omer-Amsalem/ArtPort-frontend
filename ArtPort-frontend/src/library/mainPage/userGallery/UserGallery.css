@@ -1,0 +1,59 @@
+.my-gallery-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.hero-section {
+    background-image: url('https://cdn.pixabay.com/photo/2023/10/03/09/59/port-8291059_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.profile-section {
+    display: flex;
+    justify-content: center;
+    margin-top: -75px;
+    /* Positioning the profile image overlapping the HeroSection */
+}
+
+
+.profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #fff;
+    /* Optional border around the profile image */
+}
+
+.upload-section {
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.upload-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upload-btn:hover {
+    background-color: #0056b3;
+}
+
+.gallery-section {
+    padding: 20px;
+    /* Additional styling will go here based on the gallery content */
+}

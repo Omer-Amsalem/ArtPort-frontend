@@ -1,0 +1,201 @@
+/* General Page Styling */
+.main-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background-image: url('https://cdn.pixabay.com/photo/2023/10/03/09/59/port-8291059_1280.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .explore-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .explore-btn:hover {
+    background-color: #e65500;
+  }
+  
+  /* Featured Artworks */
+  .featured-artworks {
+    padding: 50px 20px;
+  }
+  
+  .featured-artworks h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .artworks-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .artwork-item {
+    text-align: center;
+  }
+  
+  .artwork-item img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .artwork-item h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .artwork-item p {
+    font-size: 16px;
+    margin: 2px 0;
+  }
+  
+  /* Categories */
+  .categories {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .categories h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .categories-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .category-item {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .category-item:hover {
+    background-color: #ff6600;
+    color: white;
+  }
+  
+  /* Popular Artists */
+  .popular-artists {
+    padding: 50px 20px;
+  }
+  
+  .popular-artists h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .artists-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .artist-item {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  /* Newsletter Signup */
+  .newsletter-signup {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .newsletter-signup h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter-signup p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter-signup input[type="email"] {
+    padding: 10px;
+    font-size: 18px;
+    width: 300px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .signup-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .signup-btn:hover {
+    background-color: #e65500;
+  }
+  
+  /* Carousel */
+  .carousel-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .carousel-item:hover {
+    transform: scale(1.05);
+    background-color: #ff6600;
+    color: white;
+  }
+  
