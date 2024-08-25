@@ -4,6 +4,7 @@ import Footer from '../mainComponents/footer/Footer';
 import HeroSection from '../mainComponents/heroSection/HeroSection';
 import ProfileSection from '../userComponents/ProfileSection';
 import ProductCards from '../userComponents/productCards/ProductCards';
+import { CiCirclePlus } from "react-icons/ci";
 import './UserGallery.css';
 
 const mediaItems = [
