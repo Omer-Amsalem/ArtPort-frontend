@@ -16,21 +16,6 @@
     text-align: center;
 }
 
-.profile-section {
-    display: flex;
-    justify-content: center;
-    margin-top: -75px;
-    /* Positioning the profile image overlapping the HeroSection */
-}
-
-
-.profile-image {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    border: 5px solid #fff;
-    /* Optional border around the profile image */
-}
 
 .upload-section {
     display: flex;

@@ -2,8 +2,10 @@ import React from 'react';
 import Header from '../mainComponents/header/Header';
 import Footer from '../mainComponents/footer/Footer';
 import HeroSection from '../mainComponents/heroSection/HeroSection';
+import ProfileSection from '../userComponents/ProfileSection';
 import './UserGallery.css'; 
 
+const profileImageUrl = "https://cdn.pixabay.com/photo/2023/07/05/11/14/alpaca-8108043_640.png";
 
 const MyGallery = () => {
   return (
@@ -16,13 +18,10 @@ const MyGallery = () => {
         buttonText="Follow"
       />
 
-      <div className="profile-section">
-        <img 
-          src="https://via.placeholder.com/150" 
-          alt="Profile" 
-          className="profile-image"
-        />
-      </div>
+      <ProfileSection
+        profileImageUrl= {profileImageUrl}
+        altText="Profile"
+      />
 
       <div className="upload-section">
         <button className="upload-btn">Upload New Art to My Gallery</button>
