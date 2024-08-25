@@ -5,7 +5,9 @@ import HeroSection from '../mainComponents/heroSection/HeroSection';
 import ProfileSection from '../userComponents/ProfileSection';
 import './UserGallery.css'; 
 
-const profileImageUrl = "https://cdn.pixabay.com/photo/2023/07/05/11/14/alpaca-8108043_640.png";
+const userData = {firstName: "Omer", lastName: "Amsalem", title: "Amazing sentence about my art and how much I don't like css at the same time.",
+  profileImageUrl: "https://cdn.pixabay.com/photo/2023/07/05/11/14/alpaca-8108043_640.png"
+};  
 
 const MyGallery = () => {
   return (
@@ -13,13 +15,13 @@ const MyGallery = () => {
       <Header />
 
       <HeroSection
-        title="Omer Amsalem Gallery"
-        subtitle="Amazing sentence about my art and how much I don't like css at the same time."
+        title= {userData.firstName + " " + userData.lastName+"'s Gallery"}
+        subtitle= {userData.title}
         buttonText="Follow"
       />
 
       <ProfileSection
-        profileImageUrl= {profileImageUrl}
+        profileImageUrl= {userData.profileImageUrl}
         altText="Profile"
       />
 
