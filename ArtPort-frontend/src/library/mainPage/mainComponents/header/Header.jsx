@@ -15,7 +15,7 @@ const Header = () => {
     <header className="header">
       {/* Left side - Logo */}
       <div className="logo">
-        <h1>ArtPort</h1> {/* Replace with your logo */}
+        <Link to="/main"><h1>ArtPort</h1></Link> {/* Replace with your logo */}
       </div>
 
       {/* Right side - Navigation */}
@@ -27,7 +27,7 @@ const Header = () => {
             <a href="#!" onClick={toggleProfileMenu}>My Profile</a>
             {isProfileMenuOpen && (
               <ul className="profile-dropdown">
-                <li><a href="/my-art">My Art</a></li>
+                <li><Link to="/user-gallery">My Gallery</Link></li>
                 <li><a href="/settings">Settings</a></li>
                 <li><Link to="/login">Log out</Link></li>
               </ul>
